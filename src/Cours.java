@@ -31,7 +31,7 @@ public class Cours {
                return false;
            }
        }
-       public void inscrireEtudiant() {
+       public void inscrireEtudiant(Etudiant e) {
            boolean c=this.estComplet();
            if (c==true){
                System.out.println("Le cours est deja complet");
